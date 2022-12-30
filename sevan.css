@@ -1,0 +1,124 @@
+/* Videos*/
+
+#sevan {
+    width: 600px;
+    height: 400px;
+}
+
+
+/*Headings*/
+
+h1 {
+    color: yellow;
+    font-size: 60px;
+}
+
+#relationships {
+    color: black;
+    font-size: 40px;
+}
+
+#movies {
+    color: black;
+    font-size: 40px;
+}
+
+
+/*Body*/
+
+body {
+    background-color: aqua;
+}
+
+
+/*Divs*/
+
+.parent {
+    padding: 1rem;
+}
+
+.child1 {
+    display: inline-block;
+    padding: 2rem;
+    padding-top: 2px;
+}
+
+.child2 {
+    display: inline-block;
+}
+
+.child3 {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.child1:hover #brain {
+    visibility: visible;
+    text-align: center;
+    font-size: 30px;
+}
+
+.child1:hover img {
+    visibility: hidden;
+}
+
+.child3:hover #volume {
+    visibility: visible;
+    text-align: center;
+    font-size: 30px;
+}
+
+.child3:hover img {
+    visibility: hidden;
+}
+
+#left {
+    display: inline-block;
+    padding-left: 100px;
+    border: solid;
+    margin-right: 0px;
+}
+
+#right {
+    display: inline-block;
+    padding-left: 400px;
+    border: solid;
+    margin-left: 0px;
+}
+
+
+/*Paragraphs*/
+
+#paragraph {
+    font-size: 30px;
+    color: white;
+}
+
+#brain {
+    color: yellow;
+    visibility: hidden;
+}
+
+#volume {
+    color: yellow;
+    visibility: hidden;
+}
+
+
+/*Anchors*/
+
+#schedule {
+    padding-left: 40px;
+}
+
+#favorites {
+    padding-left: 40px;
+}
+
+a {
+    font-size: 40px;
+}
+
+a:hover {
+    color: yellow;
+}
